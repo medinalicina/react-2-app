@@ -16,7 +16,7 @@
 
 
 import React from 'react';
-import Card from './Components/Card.js';
+// import Card from './Components/Card.js';
 
 const App = () => {
 const odeljenje =[{ime: "medina" , prezime:"licina", godine:"16"}, {ime:"dzemila", prezime:"mulic", godine:"16"},{}, {}, {}];
