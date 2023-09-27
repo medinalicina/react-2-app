@@ -1,0 +1,97 @@
+/* .form-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  } */
+
+  /* styles.css */
+
+/* Stil za form-container */
+/* .form-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+   */
+
+/* Domaci.module.css */
+
+.form-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
