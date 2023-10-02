@@ -1,0 +1,1 @@
+//return iz prvog then je argument u drugom then
