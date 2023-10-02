@@ -19,90 +19,90 @@ import React, { useState } from 'react';
 // import Card from './Components/Card.js';
 import './Components/Domaci.css';
 
-const App = () => {
-  const [formData, setFormData] = useState({
-    imePrezime: '',
-    godine: '',
-    mestoRodjenja: '',
-    stepenSkolovanja: '',
-    zanimanje: '',
-    hobi: '',
-    partnerStatus: ''
-  });
+const App = () => 
+//   const [formData, setFormData] = useState({
+//     imePrezime: '',
+//     godine: '',
+//     mestoRodjenja: '',
+//     stepenSkolovanja: '',
+//     zanimanje: '',
+//     hobi: '',
+//     partnerStatus: ''
+//   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
+//   const handleChange = (e) => {
+//     const { name, value } = e.target;
+//     setFormData({ ...formData, [name]: value });
+//   };
 
-  const handlePartnerStatusChange = (status) => {
-    setFormData({ ...formData, partnerStatus: status });
-  };
+//   const handlePartnerStatusChange = (status) => {
+//     setFormData({ ...formData, partnerStatus: status });
+//   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form data submitted:', formData);
-  };
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     console.log('Form data submitted:', formData);
+//   };
 
-  return (
-    <div className="form-container">
-      <form onSubmit={handleSubmit}>
-        <label>
-          Ime i prezime:
-          <input type="text" name="imePrezime" value={formData.imePrezime} onChange={handleChange} />
-        </label>
-        <label>
-          Godine:
-          <input type="text" name="godine" value={formData.godine} onChange={handleChange} />
-        </label>
-        <label>
-          Mesto rođenja:
-          <input type="text" name="mestoRodjenja" value={formData.mestoRodjenja} onChange={handleChange} />
-        </label>
-        <label>
-          Stepen školovanja:
-          <input type="text" name="stepenSkolovanja" value={formData.stepenSkolovanja} onChange={handleChange} />
-        </label>
-        <label>
-          Zanimanje:
-          <input type="text" name="zanimanje" value={formData.zanimanje} onChange={handleChange} />
-        </label>
-        <label>
-          Hobi:
-          <input type="text" name="hobi" value={formData.hobi} onChange={handleChange} />
-        </label>
-        <div>
-          Partner status(haram):
-          <label>
-            <input
-              type="radio"
-              name="partnerStatus"
-              value="ne"
-              checked={formData.partnerStatus === 'ne'}
-              onChange={() => handlePartnerStatusChange('ne')}
-            />
-            NE
-          </label>
-          <label>
-            <input
-              type="radio" 
-              name="partnerStatus"
-              value="ne"
-              checked={formData.partnerStatus === 'ne'}
-              onChange={() => handlePartnerStatusChange('ne')}
-            />
-            NE NIKAKO
-          </label>
-        </div>
-        <button type="posalji">Posalji</button>
-      </form>
-    </div>
-  );
-};
+//   return (
+//     <div className="form-container">
+//       <form onSubmit={handleSubmit}>
+//         <label>
+//           Ime i prezime:
+//           <input type="text" name="imePrezime" value={formData.imePrezime} onChange={handleChange} />
+//         </label>
+//         <label>
+//           Godine:
+//           <input type="text" name="godine" value={formData.godine} onChange={handleChange} />
+//         </label>
+//         <label>
+//           Mesto rođenja:
+//           <input type="text" name="mestoRodjenja" value={formData.mestoRodjenja} onChange={handleChange} />
+//         </label>
+//         <label>
+//           Stepen školovanja:
+//           <input type="text" name="stepenSkolovanja" value={formData.stepenSkolovanja} onChange={handleChange} />
+//         </label>
+//         <label>
+//           Zanimanje:
+//           <input type="text" name="zanimanje" value={formData.zanimanje} onChange={handleChange} />
+//         </label>
+//         <label>
+//           Hobi:
+//           <input type="text" name="hobi" value={formData.hobi} onChange={handleChange} />
+//         </label>
+//         <div>
+//           Partner status(haram):
+//           <label>
+//             <input
+//               type="radio"
+//               name="partnerStatus"
+//               value="ne"
+//               checked={formData.partnerStatus === 'ne'}
+//               onChange={() => handlePartnerStatusChange('ne')}
+//             />
+//             NE
+//           </label>
+//           <label>
+//             <input
+//               type="radio" 
+//               name="partnerStatus"
+//               value="ne"
+//               checked={formData.partnerStatus === 'ne'}
+//               onChange={() => handlePartnerStatusChange('ne')}
+//             />
+//             NE NIKAKO
+//           </label>
+//         </div>
+//         <button type="posalji">Posalji</button>
+//       </form>
+//     </div>
+//   );
+// };
 
-const products = [
-{ name: 'cips', is bought: }
-]
+// const products = [
+// { name: 'cips', is bought: }
+// ]
 
 
 
