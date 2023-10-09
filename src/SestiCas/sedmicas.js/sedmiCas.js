@@ -1,1 +1,1 @@
-//return iz prvog then je argument u drugom then
+//return iz prvog then je argument u drugom then samo jwdna komponenta koja prima products

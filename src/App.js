@@ -18,8 +18,10 @@
 import React, { useState } from 'react';
 // import Card from './Components/Card.js';
 import './Components/Domaci.css';
+import Card from './SestiCas/useEffect.js/domaciSearch';
 
 const App = () => 
+  <Card />
 //   const [formData, setFormData] = useState({
 //     imePrezime: '',
 //     godine: '',
